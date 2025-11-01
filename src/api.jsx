@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ BASE_URL:"http://localhost:5000/api" ,withCredentials:true});
+const API = axios.create({ BASE_URL:"https://final-backend-mewj.vercel.app/" ,withCredentials:true});
 
 // ✅ Attach token to all requests
 API.interceptors.request.use((req) => {
